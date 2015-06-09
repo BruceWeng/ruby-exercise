@@ -28,10 +28,11 @@ class Mycar
     self.mileage += mile
   end
 end
-toyota = Mycar.new(2014, "white", "Camry", 0)
+toyota = Mycar.new(2014, "white", "Camry", 0, 1000)
 puts toyota.year
 puts toyota.color
 puts toyota.model
 toyota.color = "black"
 puts toyota.color
 puts toyota.spray_paint('red')
+puts toyota.gas_mileage(2000)
