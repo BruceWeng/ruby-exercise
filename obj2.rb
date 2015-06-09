@@ -19,8 +19,9 @@ class Mycar
     @current_speed = 0
   end
 end
-  toyota = Mycar.new(2014, "white", "Camry", 0)
-  puts toyota.year
-  puts toyota.color
-  puts toyota.model
-
+toyota = Mycar.new(2014, "white", "Camry", 0)
+puts toyota.year
+puts toyota.color
+puts toyota.model
+toyota.color = "black"
+puts toyota.color
